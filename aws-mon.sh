@@ -220,6 +220,7 @@ while true; do
             DISK_SPACE_AVAIL=1
             ;;
         --disk-metric-suffix)
+            shift
             DISK_METRIC_SUFFIX=$1
             ;;
 
